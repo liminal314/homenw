@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T18:55:06.631Z" agent="5.0 (Windows)" version="16.1.2" etag="7ADW73ExA6z9TqwIcxB-" type="github"><diagram id="UkwEWvghgN0NShTl8J8z">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-31T19:35:46.017Z" agent="5.0 (Windows)" etag="Ui2WQtgTXE_L9jOUxa2b" version="16.1.2" type="github">
+  <diagram id="UkwEWvghgN0NShTl8J8z" name="Page-1">
+    <mxGraphModel dx="859" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-1" value="&lt;div&gt;Paramiko Center&lt;/div&gt;&lt;div&gt;172.16.0.20:8635&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Frontend -&amp;gt; Nginx + Flask/WebAPI&lt;/div&gt;&lt;div&gt;Backend -&amp;gt; Python/paramiko&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="320" height="215.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-2" value="&lt;div&gt;R1&lt;/div&gt;&lt;div&gt;.1&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="60" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-3" value="&lt;div&gt;SW1&lt;/div&gt;&lt;div&gt;.3&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="60" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-4" value="&lt;div&gt;R2&lt;/div&gt;&lt;div&gt;.2&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="60" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-5" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7HQd-5yBl2BSJNu1qxJt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269.5" y="280" as="sourcePoint" />
+            <mxPoint x="269.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-6" value="172.16.0.0/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449.5" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639.5" y="280" as="sourcePoint" />
+            <mxPoint x="640" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-9" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="440" as="sourcePoint" />
+            <mxPoint x="550.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.109;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="7HQd-5yBl2BSJNu1qxJt-12" target="7HQd-5yBl2BSJNu1qxJt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HQd-5yBl2BSJNu1qxJt-12" value="PC/Laptop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
